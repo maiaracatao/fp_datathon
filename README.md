@@ -20,14 +20,18 @@ Este projeto foi desenvolvido como solução para o desafio do Datathon da FIAP,
 
 ```
 .
-├── pipeline/                # Scripts da pipeline
-│   ├── data_loader.py       # Unificação dos dados
-│   ├── preprocessador.py    # Pré-processamento de texto e dados categóricos
-│   └── train_model.py       # Treinamento dos modelos e salvamento
+├── pipeline/               # Scripts da pipeline
+│   ├── data_loader.py      # Unificação dos dados
+│   ├── preprocessador.py   # Pré-processamento de texto e dados categóricos
+│   └── train_model.py      # Treinamento dos modelos e salvamento
 ├── predict.py              # API com FastAPI
-├── dashboard.py            # Painel de monitoramento com Streamlit
+├── dashboard.py            # Scripts de monitoramento
+│   ├── dashboard.py        # Painel de monitoramento com Streamlit
+│   ├── Dockerfile          # Empacotamento do app
+│   ├── requirements.txt    # Requisitos
 ├── Dockerfile              # Empacotamento do app
 ├── docker-compose.yml      # Orquestração da API + Dashboard
+├── requirements.txt        # Requisitos
 ├── logs/                   # Logs de predição
 ├── data/                   # Arquivos de entrada (.json)
 ├── test_predict_api.py     # Testes da API
