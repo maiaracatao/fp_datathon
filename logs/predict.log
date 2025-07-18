@@ -1,0 +1,5 @@
+2025-07-11 8:17:39,123 [INFO] Recebida solicitação de predição
+2025-07-11 8:17:39,124 [INFO] Área do candidato: Marketing, Nível de inglês: Avançado
+2025-07-11 8:17:39,128 [INFO] Aplicando codificação categórica
+2025-07-11 8:17:39,132 [INFO] Texto do CV processado com 136 caracteres
+2025-07-11 8:17:39,134 [INFO] Predição concluída - Probabilidade: 0.3025, Contratado: 0
