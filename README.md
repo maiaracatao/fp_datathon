@@ -31,7 +31,6 @@ Este projeto foi desenvolvido como solução para o desafio do Datathon da FIAP,
 ├── logs/                   # Logs de predição
 ├── data/                   # Arquivos de entrada (.json)
 ├── test_predict_api.py     # Testes da API
-├── test_preprocessador.py  # Testes de pré-processamento
 └── README.md               # Documentação
 ```
 
