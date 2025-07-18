@@ -41,8 +41,8 @@ Este projeto foi desenvolvido como solução para o desafio do Datathon da FIAP,
 ### 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/maiaracatao/fp_datathon.git
+cd fp_datathon
 ```
 
 ### 2. Executar com Docker Compose
